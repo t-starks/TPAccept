@@ -3,7 +3,7 @@ main: TStark\TPAcceptForm\Main
 version: 1.1.0
 api: 5.0.0
 author: §bT. Stark
-description: §6Sistema avanzado de solicitudes de TP con formularios interactivos
+description: §6Advanced TP application system with interactive forms
 website: §ahttps://minecraftpetools.netlify.app
 
 commands:
