@@ -1,0 +1,24 @@
+# Form Colors and Text
+form:
+  title: "§l§6TP Request"
+  content: "§e{player} §fwants to teleport to you.\n§7Location: §b{world} §8(X: {x}, Y: {y}, Z: {z})"
+  button_accept: "§a§lAccept"
+  button_deny: "§c§lReject"
+
+# Plugin Messages
+messages:
+  request_sent: "§a[Request] §fYou sent a TP request to §e{player}."
+  request_received: "§a[Request] §e{player} §fhas sent you a TP request."
+  tp_accepted: "§a[Request] §e{player} §aaccepted your request."
+  tp_denied: "§c[Request] §e{player} §crejected your request."
+  tp_expired: "§6[Request] Your TP request has expired."
+  tp_cancelled: "§6[Request] You canceled your TP request."
+  toggle_on: "§a[Request] §fYou are now accepting TP requests."
+  toggle_off: "§c[Request] §fYou are no longer accepting TP requests."
+  error_no_pending: "§c[Request] You have no pending requests."
+  error_toggle_blocked: "§c[Request] §e{player} §c does not accept TP requests."
+
+# Advanced Settings
+settings:
+  request_timeout: 30 # Time in seconds before the request expires
+  cooldown: 10 # Time in seconds between requests
