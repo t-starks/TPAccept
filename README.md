@@ -1,7 +1,7 @@
 # <img src="https://github.com/t-starks/TPAccept/blob/main/icon.png" height="64" width="64" align="left"> TPAccept
 <br>
 
-<img src="https://github.com/t-starks/TPA-UI/blob/main/assets/img/screenshot.png" height="100" width="200" align="left">
+<img src="https://github.com/t-starks/TPAccept/blob/main/assets/img/screenshot.png" height="100" width="200" align="left">
 
 **TPAccept** es un plugin de teletransporte para PocketMine-MP que permite a los jugadores solicitar, aceptar o cancelar solicitudes de TP de una manera sencilla y rápida usando formularios.  
 Ideal para servidores donde la interacción entre jugadores es importante.  
