@@ -3,59 +3,59 @@
 
 <img src="https://github.com/t-starks/TPAccept/blob/main/assets/img/screenshot.png" height="100" width="200" align="left">
 
-**TPAccept** es un plugin de teletransporte para PocketMine-MP que permite a los jugadores solicitar, aceptar o cancelar solicitudes de TP de una manera sencilla y rápida usando formularios.  
-Ideal para servidores donde la interacción entre jugadores es importante.  
+**TPAccept** is a teleportation plugin for PocketMine-MP that allows players to request, accept, or cancel teleport requests quickly and easily using forms.
+Perfect for servers where player interaction is important.
 
 <br clear="left">
 
 ---
 
-## 📋 Información
+## 📋 Information
 
-| Descripción | Link |
+| Description | Link |
 |:------------|:-----|
 | API         | [![API](https://poggit.pmmp.io/shield.api/TPAccept)](https://poggit.pmmp.io/p/TPAccept) |
-| Versión     | [![Version](https://poggit.pmmp.io/shield.state/TPAccept)](https://poggit.pmmp.io/p/TPAccept) |
-| Descargas   | [![Downloads](https://poggit.pmmp.io/shield.dl.total/TPAccept)](https://poggit.pmmp.io/p/TPAccept) |
+| Version     | [![Version](https://poggit.pmmp.io/shield.state/TPAccept)](https://poggit.pmmp.io/p/TPAccept) |
+| Downloads   | [![Downloads](https://poggit.pmmp.io/shield.dl.total/TPAccept)](https://poggit.pmmp.io/p/TPAccept) |
 
 ---
 
-## 📥 Instalación
+## 📥 Installation
 
-- **Descarga** el `.phar` del plugin desde [Poggit](https://poggit.pmmp.io/p/TPAccept).
-- **Colócalo** en la carpeta `plugins` de tu servidor PocketMine-MP.
-- **Reinicia** tu servidor para que se cargue correctamente.
-
----
-
-## ⚙️ Comandos
-
-| Comando | Descripción | Permiso |
-|:--------|:------------|:--------|
-| `/tpa <jugador>` | Solicita teletransportarte a un jugador. | `tpaform.command` |
-| `/tpcancel` | Cancela una solicitud de TP pendiente. | `tpaform.command` |
-| `/tptoggle` | Activa o desactiva solicitudes de TP. | `tpaform.toggle` |
+- **Download** the plugin `.phar` file from [Poggit](https://poggit.pmmp.io/p/TPAccept).
+- **Place** it in the `plugins` folder of your PocketMine-MP server.
+- **Restart** your server to load the plugin properly.
 
 ---
 
-## 🔒 Permisos
+## ⚙️ Commands
 
-| Permiso | Descripción | Predeterminado |
-|:--------|:------------|:---------------|
-| `tpaform.command` | Permite usar `/tpa` y `/tpcancel`. | `true` |
-| `tpaform.toggle` | Permite usar `/tptoggle`. | `op` |
-| `tpaform.bypass` | Permite ignorar el estado de toggle de otros. | `op` |
+| Command | Description | Permission |
+|:--------|:------------|:-----------|
+| `/tpa <player>` | Request to teleport to a player. | `tpaform.command` |
+| `/tpcancel` | Cancel a pending teleport request. | `tpaform.command` |
+| `/tptoggle` | Enable or disable incoming teleport requests. | `tpaform.toggle` |
 
 ---
 
-## 🌐 Sitios Web
+## 🔒 Permissions
+
+| Permission | Description | Default |
+|:-----------|:------------|:--------|
+| `tpaform.command` | Allows use of `/tpa` and `/tpcancel`. | `true` |
+| `tpaform.toggle` | Allows use of `/tptoggle`. | `op` |
+| `tpaform.bypass` | Allows bypassing others' toggle status. | `op` |
+
+---
+
+## 🌐 Websites
 
 - [<img src="https://pocketmineschool.netlify.app/favicon.ico" width="20"> Pocket Mine School](https://pocketmineschool.netlify.app/)
 - [<img src="https://mcpetools.surge.sh/favicon.ico" width="20"> MinecraftPE Tools](https://mcpetools.surge.sh/)
 
 ---
 
-## 🤝 Conecta Conmigo
+## 🤝 Connect With Me
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tstark.dev)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@t-starks)
@@ -65,7 +65,7 @@ Ideal para servidores donde la interacción entre jugadores es importante.
 
 ---
 
-## ☕ Apóyame
+## ☕ Support Me
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/tstark)
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/tstark)
