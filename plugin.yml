@@ -1,32 +1,35 @@
 name: TPAccept
 main: TStark\TPAcceptForm\Main
-version: 1.0.0
+version: 1.1.0
 api: 5.0.0
 author: §bT. Stark
-description: §6Enhance your server with an easy-to-use teleport request.
+description: §6Sistema avanzado de solicitudes de TP con formularios interactivos
 website: §ahttps://minecraftpetools.netlify.app
 
 commands:
   tpa:
-    description: "Request teleportation from a player"
+    description: "Send a teleport request to a player"
     usage: "/tpa <player>"
-    permission: "tpaform.command"
-  tpcancel:
-    description: "Cancel a pending TP request"
-    usage: "/tpcancel"
-    permission: "tpaform.command"
+    permission: "tpaform.command.tpa"
+  tpacancel:
+    description: "Cancel your pending teleport request"
+    usage: "/tpacancel <player>"
+    permission: "tpaform.command.tpacancel"
   tptoggle:
-    description: "Enable/disable TP requests"
+    description: "Toggle teleport requests on/off"
     usage: "/tptoggle"
-    permission: "tpaform.toggle"
+    permission: "tpaform.command.tptoggle"
 
 permissions:
-  tpaform.command:
-    description: "Allows the use of /tpa and /tpcancel"
+  tpaform.command.tpa:
+    description: "Allows using the tpa command"
     default: true
-  tpaform.toggle:
-    description: "Allows using /tptoggle"
-    default: op
+  tpaform.command.tpacancel:
+    description: "Allows using the tpacancel command"
+    default: true
+  tpaform.command.tptoggle:
+    description: "Allows using the tptoggle command"
+    default: true
   tpaform.bypass:
-    description: "Ignore other players' toggles"
+    description: "Bypass teleport request restrictions"
     default: op

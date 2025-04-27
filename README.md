@@ -32,9 +32,9 @@ Perfect for servers where player interaction is important.
 
 | Command | Description | Permission |
 |:--------|:------------|:-----------|
-| `/tpa <player>` | Request to teleport to a player. | `tpaform.command` |
-| `/tpcancel` | Cancel a pending teleport request. | `tpaform.command` |
-| `/tptoggle` | Enable or disable incoming teleport requests. | `tpaform.toggle` |
+| `/tpa <player>` | Request to teleport to a player | `tpaform.command.tpa` |
+| `/tpacancel <player>` | Cancel a pending teleport request | `tpaform.command.tpacancel` |
+| `/tptoggle` | Toggle incoming teleport requests | `tpaform.command.tptoggle` |
 
 ---
 
@@ -42,9 +42,10 @@ Perfect for servers where player interaction is important.
 
 | Permission | Description | Default |
 |:-----------|:------------|:--------|
-| `tpaform.command` | Allows use of `/tpa` and `/tpcancel`. | `true` |
-| `tpaform.toggle` | Allows use of `/tptoggle`. | `op` |
-| `tpaform.bypass` | Allows bypassing others' toggle status. | `op` |
+| `tpaform.command.tpa` | Allows use of /tpa command | `true` |
+| `tpaform.command.tpacancel` | Allows use of /tpacancel command | `true` |
+| `tpaform.command.tptoggle` | Allows use of /tptoggle command | `true` |
+| `tpaform.bypass` | Bypass TP request restrictions | `op` |
 
 ---
 
